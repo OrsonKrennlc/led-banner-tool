@@ -7,6 +7,9 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6.svg)
 ![Vite](https://img.shields.io/badge/Vite-6-646cff.svg)
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-06b6d4.svg)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Deployed-success)
+
+[🚀 在线演示](https://orsonkrennlc.github.io/led-banner-tool/)
 
 ---
 
@@ -180,10 +183,15 @@ led-banner-tool/
 
 ### GitHub Pages
 
+使用 `gh-pages` 工具一键部署：
+
 ```bash
-npm run build
-# 将 dist 目录内容推送到 gh-pages 分支
+npm run deploy
 ```
+
+该命令会自动构建项目并将 `dist` 目录发布到 `gh-pages` 分支。
+
+在仓库 Settings → Pages 中，将 Source 设置为 **Deploy from a branch**，Branch 选择 **gh-pages** / **root**，等待几分钟即可访问。
 
 ### 自建服务器
 
